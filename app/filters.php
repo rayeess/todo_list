@@ -88,3 +88,11 @@ Route::filter('csrf', function()
 		throw new Illuminate\Session\TokenMismatchException;
 	}
 });
+
+Route::filter('ajax_check', function()
+{
+  if (Request::ajax())
+    {
+      return true;
+    }
+});

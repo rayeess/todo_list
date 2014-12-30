@@ -15,9 +15,11 @@ class HomeController extends BaseController {
 	|
 	*/
 
-	public function showWelcome()
+	public function getHome()
 	{
-		return View::make('hello');
+		$todos = Todo::all();
+		return View::make("index")
+			->with("todos", $todos);
 	}
 
 }
