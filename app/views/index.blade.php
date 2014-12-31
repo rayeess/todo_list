@@ -1,7 +1,8 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <title>To-do List Application</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css" />
     <!--[if lt IE 9]><scriptsrc="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
   </head>
@@ -40,6 +41,6 @@
     
     </div>
     <script src="http://code.jquery.com/jquery-latest.min.js"type="text/javascript"></script>
-    <script src="assets/js/todo.js"type="text/javascript"></script>
+    <script src="/assets/js/todo.js"type="text/javascript"></script>
   </body>
 </html>

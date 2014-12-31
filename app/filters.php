@@ -89,10 +89,3 @@ Route::filter('csrf', function()
 	}
 });
 
-Route::filter('ajax_check', function()
-{
-  if (Request::ajax())
-    {
-      return true;
-    }
-});

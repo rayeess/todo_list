@@ -11,4 +11,6 @@
 |
 */
 
-Route::get('/', array('as' => 'home', 'uses' => 'HomeController@getHome'));
+//Route::get('/', array('as' => 'home', 'uses' => 'TodoController@getIndex'));
+
+Route::controller('/', 'TodoController');
